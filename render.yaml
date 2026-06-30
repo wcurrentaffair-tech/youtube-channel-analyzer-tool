@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: youtube-channel-analyzer-tool
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: YOUTUBE_API_KEY
+        sync: false

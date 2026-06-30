@@ -1,0 +1,20 @@
+{
+  "name": "youtube-channel-analyzer-tool",
+  "version": "1.0.0",
+  "description": "Working YouTube Channel Analysis tool using YouTube Data API v3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["youtube", "analytics", "channel", "analyzer", "creator-tool"],
+  "author": "Tool Bazar Digital",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
